@@ -1,3 +1,6 @@
+import "core-js/stable";
+import "regenerator-runtime/runtime";
+
 import postLocation from './js/postLocation';
 import getLocation from './js/getLocation';
 
