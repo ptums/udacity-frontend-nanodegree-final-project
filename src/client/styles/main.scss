@@ -1,0 +1,20 @@
+@import "colors";
+
+h2 {
+  color: $light-yellow;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+main {
+  flex: 2;
+}
+
+section {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.title {
+  text-align:center;
+}

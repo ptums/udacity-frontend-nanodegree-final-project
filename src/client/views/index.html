@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Travel App</title>
+  </head>
+  <body>
+    <main id="app">
+      <header class="header">
+        <div class="logo">
+          <h1>Know Before You Go</h1>
+        </div>
+      </header>
+      <section class="title">
+        <h2>Looking to travel, then know about the town before buying that ticket.</h2>
+      </section>
+      <section class="form">
+        <form>
+          <input id="name" type="text" name="input" value="" placeholder="Where do you want to go...">
+          <button type="button" name="submitBtn" onsubmit="Client.postLocation(event)" onclick="Client.postLocation(event)">
+          Submit
+          </button>
+        </form>
+      </section>
+      <section class="results">
+        <div id="location">
+          <h4>Results will appear here...</h4>
+        </div>
+      </section>
+      <footer class="footer">
+        <p>Peter F. Tumulty 2020</p>
+      </footer>
+    </main>
+   <!-- <script>
+      // Check that service workers are supported
+      if ('serviceWorker' in navigator) {
+          // Use the window load event to keep the page load performant
+          window.addEventListener('load', () => {
+              navigator.serviceWorker.register('/service-worker.js');
+          });
+      }
+    </script>-->
+  </body>
+</html>

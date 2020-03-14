@@ -1,0 +1,17 @@
+$light-blue: #009FD7;
+$light-green: #00D99D;
+$blue: #6800D5;
+$light-red: #FC3D55;
+$dark-red: #BD2D40;
+$dark-yellow: #FFAC00;
+$light-yellow: #FFDF0D;
+
+:export {
+  $light-blue: $light-blue;
+  $light-green: $light-green;
+  $blue: $blue;
+  $light-red: $light-red;
+  $dark-yellow: $dark-yellow;
+  $dark-red: $dark-red;
+  $light-yellow: $light-yellow;
+}
