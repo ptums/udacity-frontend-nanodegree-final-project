@@ -1,6 +1,7 @@
 # Udacity FrontEnd Nanodegree Final Project
 
 This repository contains the code base to my solution for [Udacity's Front End Developer Nanodegree final project](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011). This is a travel app that utilizes the features of Dark Sky API, Geo Names API, and Pixabay API to provide details and images about the location provided by the user.
+
 This project utilizes webpack4, sass, html, css, and javascript to create a **progressive web application** with offline and mobile download capabilities.
 
 ## Build Status
